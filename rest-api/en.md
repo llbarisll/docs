@@ -59,7 +59,7 @@ To check authorization, send a POST query to the URL https://payeer.com/ajax/ap
     <tr>
         <td><b>account</b></td>
         <td>Your account number in the Payeer system</td>
-        <td>P1000000</td>
+        <td>P1108017723</td>
     </tr>
     <tr>
         <td><b>apiId</b></td>
@@ -69,7 +69,7 @@ To check authorization, send a POST query to the URL https://payeer.com/ajax/ap
     <tr>
         <td><b>apiPass</b></td>
         <td>the API user's secret key</td>
-        <td>qwerty</td>
+        <td>q1ybE00zukb5T4G8</td>
     </tr>
 </table>
 
@@ -108,7 +108,7 @@ Two parameters will be returned in the body of the response: <code>auth_error</c
             
     + Body
     
-            account=P1000000&apiId=12345&apiPass=qwerty
+            account=P1108017723apiId=344apiPass=qwerty
         
 + Response 200 (application/json)
 
@@ -129,7 +129,7 @@ Getting a wallet balance.
     <tr>
         <td><b>account</b></td>
         <td>Your account number in the Payeer system</td>
-        <td>P1000000</td>
+        <td>P1108017723</td>
     </tr>
     <tr>
         <td><b>apiId</b></td>
@@ -380,7 +380,7 @@ List of potential <code>errors</code>:
 
     + Body
     
-            account=P1000000&apiId=12345&apiPass=qwerty&action=transfer&curIn=USD&sum=1&curOut=USD&to=P1000001
+                  account=&apiId=12345&apiPass=qwerty&action=transfer&curIn=USD&sum=1&curOut=USD&to=P1000001
             
 + Response 200 (application/json)
 
